@@ -1,0 +1,1499 @@
+/*--------------------HEAD--------------------*/
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+body{
+    font-family: 'Mukta', sans-serif;
+    color: #25262a;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*--------------------HEAD--------------------*/
+
+
+
+/*--------------------FOOTER--------------------*/
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #020B13;
+    text-align: center;
+}
+
+#footer ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer ul li a:link{
+    color: #A9A9A9;
+}
+
+#footer ul li a:visited{
+    color: #A9A9A9;
+}
+
+#footer ul li a:hover{
+    color: #F5F5F5;
+}
+
+#footer p{
+    color: #A9A9A9;
+    font-size: 15px;
+}
+
+#footer ul{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+/*--------------------FOOTER--------------------*/
+
+
+
+/*--------------------NAV--------------------*/
+#beforenav{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#beforenav_drzac{
+    margin: 0px auto;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#beforenav a span{
+    font-size: 25px;
+    color: #25262a;
+}
+
+#beforenav a span:hover{
+    color: #7971ea;
+}
+
+/*--------------------NAV--------------------*/
+
+/*--------------------NAV 222--------------------*/
+#nav_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#nav2{
+    width: 100%;
+    height: 65px;
+
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+#nav{
+    margin-left: 10px;
+}
+
+#nav ul{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav ul li a{
+    color: #25262a;
+    display: block;
+    font-size: 15px;
+    padding: 15px 14px;
+    transition: 0.3s linear;
+    letter-spacing: 2px;
+}
+
+#nav ul li a:hover{
+    background: #F5F5F5;
+}
+
+#nav ul li ul{
+    border-top: 3px solid #7971ea;
+    display: none;
+    position: absolute;
+    width: 175px;
+}
+
+#nav ul li ul li:last-child{
+    border-bottom: 3px solid #7971ea;
+}
+
+#nav ul li ul li{
+    border-top: 1px solid #F5F5F5;
+    display: block;
+}
+
+#nav ul li ul li:first-child{
+    border-top: none;
+}
+
+#nav ul li ul li a{
+    background: white;
+    display: block;
+    padding: 10px 14px;
+    color: #7971ea;
+}
+
+#nav ul li ul li a:hover{
+    background: #F5F5F5;
+    color: black;
+}
+
+#adminLink{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    //color: #25262a;
+    color: white;
+    padding: 5px 10px;
+    //background-color: palegreen;
+    background-color: #25262a;
+    border-bottom-left-radius: 5px;
+    letter-spacing: 1px;
+}
+
+#adminLink:hover{
+    background-color: #7971ea;
+}
+/*--------------------NAV 222--------------------*/
+
+
+
+/*--------------------REGISTER--------------------*/
+#register_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#register_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+#tabela_register tr:last-child{
+    text-align: center;
+}
+
+#tabela_register tr td{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#tabela_register tr:last-child td{
+    padding-top: 10px;
+}
+
+#regDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+#forma_register{
+    padding-bottom: 40px;
+}
+
+.ispisGreske{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 15px;
+}
+/*--------------------REGISTER--------------------*/
+
+
+
+/*--------------------LOGIN--------------------*/
+#login_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#login_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+#tabela_login tr:last-child td{
+    padding-top: 10px;
+}
+
+#loginDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+#login_greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#forma_login{
+    padding-bottom: 40px;
+}
+
+#login_drzac a:link{
+    color: blue;
+}
+
+#login_drzac a:visited{
+    color: blue;
+}
+
+#login_drzac a:hover{
+    color: red;
+}
+
+#zab_loz_p{
+    color: blue;
+}
+
+#zab_loz_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+#zab_loz_p:hover{
+    color: red;
+}
+
+#resetPassEmailIspis{
+    height: 50px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#resetPassEmailDugme{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#resetPassEmailTabela{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+#resetPassEmailTabela tr:first-child td {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*--------------------LOGIN--------------------*/
+
+
+
+/*--------------------CONTACT--------------------*/
+#contact_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#contact_drzac{
+    margin: 0px auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+
+#contact_drzac ul li{
+    padding: 3px;
+}
+
+#contact_drzac ul li span{
+    color: #7971ea;
+}
+
+#contactEmail{
+    font-family: 'Mukta', sans-serif;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#poruka{
+    font-family: 'Mukta', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 400px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 400px;
+}
+
+#contactDugme{
+    font-family: 'Mukta', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+#forma_contact{
+    padding-bottom: 10px;
+}
+
+.ispisGreskeContact{
+    width: 400px;
+    height: 20px;
+    margin-bottom: 15px;
+    color: red;
+    font-size: 15px;
+}
+
+#contact_greske{
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#contact_greske h4{
+    padding-bottom: 5px;
+}
+
+#contact_greske h2{
+    padding-bottom: 5px;
+}
+
+.contactSpan{
+    width: 275px;
+    height: 2px;
+    background-color: #7971ea;
+    display: block;
+}
+
+/*---anketa---*/
+#kontakt_anketa{
+    height: 550px;
+    width: 400px;
+}
+
+#ankete h3{
+    margin-top: 75px;
+    margin-bottom: -10px;
+}
+
+#selectAnketa{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    margin-bottom: 10px;
+}
+
+#odgovori{
+    background-color: #F5F5F5;
+    margin-top: 10px;
+}
+
+#odgovori ul li{
+    padding: 3px;
+}
+
+#glasaj{
+    font-family: 'Mukta', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+#glasajDugmeDiv{
+    background-color: #F5F5F5;
+}
+
+#glasajDugmeDiv p{
+    display: inline-block;
+}
+
+#rezultatiDugme{
+    font-family: 'Mukta', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#odgovori h4{
+    margin-bottom: 5px;
+}
+
+#odgovori ul li input{
+    margin-right: 5px;
+}
+
+#izaberiteOdgovor{
+    background-color: #F5F5F5;
+}
+
+#izaberiteOdgovor h4{
+    margin-bottom: 5px;
+}
+
+#izaberiteOdgovor p{
+    margin-bottom: 5px;
+}
+/*---anketa---*/
+/*--------------------CONTACT--------------------*/
+
+
+
+/*--------------------HOME--------------------*/
+#slajder{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#slajder img{
+    display: none;
+}
+
+#slajder .trenutna{
+    display: block;
+}
+
+#proizvodi_home{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#proizvodi_drzac_home{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#pogodnosti{
+    width: 100%;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+#pogodnosti_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#pogodnosti_drzac table{
+    width: 1200px;
+}
+
+#pogodnosti_drzac table tr td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pogodnosti_drzac table tr td a span{
+    font-size: 50px;
+    color: #7971ea;
+}
+
+.pogodnosti_naslov{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.pogodnosti_tekst{
+    color: #8c92a0;             /* boja za svetliji tekst */
+    font-size: 16px;
+}
+/*--------------------HOME--------------------*/
+
+
+
+/*--------------------ZAJEDNICKO--------------------*/
+.naslov_svaki{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.naslov_svaki p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inputi{
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+}
+
+.greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+
+.greske h4{
+    padding-bottom: 5px;
+}
+
+.greske h2{
+    padding-bottom: 5px;
+}
+/*--------------------ZAJEDNICKO--------------------*/
+
+
+
+/*----------CSS ZA PROIZVOD----------*/
+.proizvod{
+    width: 250px;
+    height: 425px;
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+    margin: 20px 11px 20px 11px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+}
+
+.ps_naziv{
+    height: 70px;
+    font-size: 18px;
+    margin: 5px 10px 5px 10px;
+
+}
+
+.ps_cena{
+    height: 55px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #7971ea;;
+}
+
+.detaljnije2{
+    text-align: center;
+}
+
+.proizvod img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.detaljnije{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #7971ea;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.detaljnije:link{
+    color: white;
+}
+
+.detaljnije:visited{
+    color: white;
+}
+
+.detaljnije:hover{
+    color: #25262a;
+}
+/*----------CSS ZA PROIZVOD----------*/
+
+
+
+/*--------------------PRODUCTS--------------------*/
+#proizvodi_products{
+    width: 100%;
+    background-color: #F5F5F5;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+#proizvodi_sadrzaj{
+    padding: 30px 0px 30px 35px;
+    width: 1130px;
+}
+
+#proizvodi_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+}
+
+#proizvodi_filter{
+    width: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#proizvodi_filter div{
+    margin-bottom: 20px;
+}
+
+#proizvodi_filter h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inputCenaFilter{
+    height: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    margin-bottom: 5px;
+}
+
+#ponistiSve{
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    border: 1px solid #A9A9A9;
+}
+
+#sortiraj{
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+}
+
+#sortirajDiv{
+    padding-bottom: 30px;
+}
+
+#nemaProizvoda{
+    margin: 300px 0px 0px 375px;
+}
+
+.stranice{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F5F5;
+    height: 70px;
+}
+
+.stranice a{
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.stranice a:link{
+    color: #25262a;
+}
+
+.stranice a:visited{
+    color: #25262a;
+}
+
+.stranice a:hover{
+    color: #25262a;
+    background-color: #7971ea;
+    border-radius: 5px;
+}
+/*--------------------PRODUCTS--------------------*/
+
+
+
+/*--------------------1 PRODUCT 1--------------------*/
+#product_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#product_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+#product_drzac img{
+    width: 350px;
+    height: 350px;
+}
+
+#o_proizvodu{
+    width: 400px;
+    height: 350px;
+    margin-left: 30px;
+    //margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+#p_naziv{
+    font-size: 21px;
+    height: 90px;
+    color: #7971ea;
+}
+
+#p_opis{
+    text-align: justify;
+    height: 120px;
+}
+
+#p_dodatno{
+    height: 50px;
+}
+
+#p_cena{
+    font-size: 23px;
+    height: 50px;
+    font-weight: bold;
+    color: #7971ea;
+}
+
+.p_opcije{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #7971ea;
+    display: inline-block;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.p_opcije:link{
+    color: white;
+}
+
+.p_opcije:visited{
+    color: white;
+}
+
+.p_opcije:hover{
+    color: #25262a;
+}
+
+.p_opcije{
+    float: right;
+}
+/*--------------------1 PRODUCT 1--------------------*/
+
+
+
+/*--------------------SHOP--------------------*/
+#shop_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#shop_sadrzaj table tr td:last-of-type{
+    text-align: center;
+}
+
+#shop_sadrzaj2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.obrisi{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkred;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.obrisi:link{
+    color: #A9A9A9;
+}
+
+.obrisi:visited{
+    color: #A9A9A9;
+}
+
+.obrisi:hover{
+    color: white;
+}
+
+.kupiDugme{
+    font-size: 15px;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.kupiDugme:link{
+    color: #A9A9A9;
+}
+
+.kupiDugme:visited{
+    color: #A9A9A9;
+}
+
+.kupiDugme:hover{
+    color: white;
+}
+
+.korpaS{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*--------------------SHOP--------------------*/
+
+
+
+/*--------------------AUTHOR--------------------*/
+#author_naslov{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+    font-size: 32px;
+}
+
+#author_naslov p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#author_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#author_drzac{
+    margin: 0px auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+#author_tekst{
+    text-align: justify;
+    width: 300px;
+}
+/*--------------------AUTHOR--------------------*/
+
+
+
+/*--------------------404--------------------*/
+#error404{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(241, 247, 247);
+    font-size: 32px;
+}
+
+#error404 p{
+    padding-top: 50px;
+}
+/*--------------------404--------------------*/
+
+
+
+/*--------------------ADMIN--------------------*/
+.naslov_svaki_admin{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    background-color: #F5F5F5;
+}
+
+.naslov_svaki_admin p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.admin_greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+
+#admin_greske h4{
+    padding-bottom: 5px;
+}
+
+#admin_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#admin_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#admin_drzac ul li a{
+    display: block;
+    margin: 25px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #373737;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+#admin_drzac ul li a:link{
+    color: #A9A9A9;
+}
+
+#admin_drzac ul li a:visited{
+    color: #A9A9A9;
+}
+
+#admin_drzac ul li a:hover{
+    color: #F5F5F5;
+}
+
+#admin_sadrzaj2{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#admin_drzac2{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#admin_drzac2 ul li{
+    display: inline-block;
+}
+
+#admin_drzac2 ul li a{
+    display: inline-block;
+    margin: 25px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #373737;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+#admin_drzac2 ul li a:link{
+    color: #A9A9A9;
+}
+
+#admin_drzac2 ul li a:visited{
+    color: #A9A9A9;
+}
+
+#admin_drzac2 ul li a:hover{
+    color: #F5F5F5;
+}
+
+#admin_meni{
+    width: 100%;
+    text-align: center;
+    background-color: #373737;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#admin_meni h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#add_uloga{
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 125px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+}
+
+#add_aktivan{
+    height: 35px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    width: 125px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    float: right;
+}
+
+#add_aktivan_t{
+    float: right;
+}
+
+#addUserDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+
+#updateUserDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+#formaProizvod tr td{
+    padding: 3px;
+}
+
+#formaProizvod img{
+    width: 350px;
+    height: 350px;
+}
+
+#insertProizvodNaziv{
+    font-family: 'Mukta', sans-serif;
+    height: 100px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 500px;
+}
+
+#insertProizvodOpis{
+    font-family: 'Mukta', sans-serif;
+    height: 100px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 500px;
+}
+
+#updateProizvodNaziv{
+    font-family: 'Mukta', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 300px;
+}
+
+#updateProizvodOpis{
+    font-family: 'Mukta', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 300px;
+}
+
+#insertProizvodSlika{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    float: left;
+}
+
+
+#insertProizvodCena{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    float: right;
+}
+
+#formaProizvodCena_t{
+    float: right;
+}
+
+#insertProizvodBrend{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+
+}
+
+#insertProizvodPol{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+    float: right;
+}
+
+#formaProizvodPol_t{
+    float: right;
+    margin-right: 50px;
+}
+
+#insertProizvodKategorija{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+    float: right;
+}
+
+#formaProizvodKategorija_t{
+    float: right;
+}
+
+#addProductDugme{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+}
+
+#updateProductDugme{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+#formaProizvod tr:last-of-type{
+    text-align: center;
+}
+
+#formaProizvod{
+    padding-bottom: 40px;
+}
+
+.malaSlika{
+    width: 100px;
+}
+
+#allusers_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#allproducts_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*--------------------ADMIN--------------------*/
+
+
+/*--------------------USERPROFILE--------------------*/
+#profile_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#profile_drzac{
+    margin: 0px auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+#o_korisniku{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#o_korisniku table{
+    font-size: 18px;
+    width: 350px;
+}
+
+#o_korisniku table th{
+    background-color: #373737;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+#o_korisniku table tr:hover {
+    background-color: #ddd;
+}
+
+
+#o_korisniku table tr td{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #A9A9A9;
+    height: 40px;
+}
+
+#promena_lozinke{
+    width: 500px;
+    height: 500px;
+}
+
+#tabela_promeni_lozinku tr:last-child td{
+    padding-top: 10px;
+}
+
+#tabela_promeni_lozinku{
+    width: 400px;
+}
+
+#promenaLozinkeDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+#formaPromenaLozinke{
+    margin: 60px 0px 0px 100px;
+}
+
+#promenaLozinkeGreske{
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#novaLozinkaGreska{
+    width: 400px;
+}
+
+#novaLozinkaGreska2{
+    width: 400px;
+}
+/*--------------------USERPROFILE--------------------*/
+
+
+
+/*--------------------RESETPASSWORD--------------------*/
+
+#reset_lozinke_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#reset_lozinke_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetLozinkeDugme{
+    font-weight: bold;
+    text-indent: 0px;
+    letter-spacing: 1px;
+}
+
+#resetLozinkeGreske{
+    margin: 0px auto;
+    text-align: center;
+    height: 125px;
+    padding-top: 30px;
+}
+/*--------------------RESETPASSWORD--------------------*/
+
+
+
+/*------------------------*/
+.malaSlika{
+    width: 100px;
+}
+
+.detaljnijeD{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.detaljnijeD:link{
+    color: #A9A9A9;
+}
+
+.detaljnijeD:visited{
+    color: #A9A9A9;
+}
+
+.detaljnijeD:hover{
+    color: white;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela tr:hover {background-color: #ddd;}
+
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #373737;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+.tabela_shop {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.tabela_shop td, .tabela_shop th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela_shop tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela_shop tr:hover {background-color: #ddd;}
+
+.tabela_shop th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #373737;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.tabela_shop h3{
+    color: #7971ea;
+}
+/*--------------------*/
+
+
+
+/*--------------------*/
+.ucitavanje {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba(0, 0, 0, 0.5)
+    url('../images/ucitavanje.gif')
+    50% 50%
+    no-repeat;
+}
+
+body.loading .ucitavanje {
+    overflow: hidden;
+}
+
+body.loading .ucitavanje {
+    display: block;
+}
+/*--------------------*/
